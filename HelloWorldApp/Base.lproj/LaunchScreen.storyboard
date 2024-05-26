@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPF-nQ-8yt">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="XPF-nQ-8yt">
                                 <rect key="frame" x="77.5" y="428.5" width="259" height="39"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="33"/>
                                 <nil key="textColor"/>
@@ -26,8 +26,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="XPF-nQ-8yt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="80X-Pl-SFq"/>
-                            <constraint firstItem="XPF-nQ-8yt" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="U5L-o1-euM"/>
+                            <constraint firstItem="XPF-nQ-8yt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77.5" id="bWq-xQ-PgM"/>
+                            <constraint firstItem="XPF-nQ-8yt" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="yaR-fO-KDU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XPF-nQ-8yt" secondAttribute="trailing" constant="77.5" id="yo8-5t-6xM"/>
                         </constraints>
                     </view>
                 </viewController>
